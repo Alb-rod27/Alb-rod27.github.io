@@ -76,7 +76,6 @@ header nav ul li a:hover {
 
 }
 
-
     .about-me p {
     line-height: 1.7;
     width: 60%;
@@ -84,4 +83,15 @@ header nav ul li a:hover {
     float: right;
     border-bottom: 20px;
     flex-direction: row-reverse;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .grid-item {
+      list-style-type: none;
   }
