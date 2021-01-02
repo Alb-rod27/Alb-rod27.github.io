@@ -79,7 +79,6 @@ header nav ul li a:hover {
     font-size: 80px;
     display: flex;
     float: left;
-    flex: 1;
 }
 
     div p {
@@ -107,15 +106,12 @@ header nav ul li a:hover {
   .grid-wrapper {
     display: grid;
     display: flex;
-    padding: 60px 0 0 0;
+    padding: 60px 0 60px 0;
     width: 100%;
     justify-content: left;
   }
 
   .grid-container {
-
-  }
-
-  .grid-item {
-      list-style-type: none;
+      display: grid;
+      grid-template-columns: 200px 100px;
   }
