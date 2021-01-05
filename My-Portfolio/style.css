@@ -113,5 +113,14 @@ header nav ul li a:hover {
 
   .grid-container {
       display: grid;
-      grid-template-columns: 200px 100px;
+      grid-column-start: 3;
+      grid-template-columns: 250px 150px;
+      grid-template-rows: 100px;
+  }
+
+  .grid-item.five {
+      grid-column: span 1/2;
+      border: 2px solid;
+      
+
   }
