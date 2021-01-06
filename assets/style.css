@@ -46,6 +46,7 @@ header nav ul {
 section {
   display: flex;
   align-items: center;
+  padding: 40px 10px;
 }
 
 section h2 {
