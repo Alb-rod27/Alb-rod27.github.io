@@ -94,33 +94,70 @@ header nav ul li a:hover {
   /*work section start*/
 
   .work {
-     padding: 80px 50px 80px 20px;
+     padding: 170px 50px 80px 20px;
   }
 
   .work h2{
       font-size: 80px;
       display: flex;
-      
+      float: left;
   }
+
+  .grid-container {
+    display: grid;
+    grid-column-start: 3;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 100px 100px;
+    width: 25%;
+}
 
   .grid-wrapper {
     display: grid;
     display: flex;
     padding: 60px 0 60px 0;
-    width: 100%;
-    justify-content: left;
+    width: 80%;
+    justify-content: center;
   }
 
-  .grid-container {
-      display: grid;
-      grid-column-start: 3;
-      grid-template-columns: 250px 150px;
-      grid-template-rows: 100px;
+  .grid-item.main{
+    border: 2px solid;
+  }
+
+  .grid-item.one{
+    border: 2px solid;
+    height: 100%;
+  }
+
+  .grid-item.two{
+    border: 2px solid;
+    height: 70%;
+  }
+
+  .grid-item.three{
+    border: 2px solid;
+  }
+
+  .grid-item.four{
+    border: 2px solid;
   }
 
   .grid-item.five {
       grid-column: span 1/2;
       border: 2px solid;
-      
+      grid-template-columns: 30%;
+      text-align: center;
+  }
 
+  /*work section end*/
+
+  /*contact me section*/
+
+  .contact h2{
+    font-size: 60px;
+  }
+
+  .contact {
+    word-spacing: 50px;
+    font-size: 25px;
+        
   }
