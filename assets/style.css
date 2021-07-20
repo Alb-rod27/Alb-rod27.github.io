@@ -56,7 +56,7 @@ section h2 {
 
 section > div {
   width: 75%;
-  border-left: solid green 5px;
+  border-left: solid rgb(79, 79, 194) 5px;
   padding: 50px;
 }
 
@@ -148,30 +148,3 @@ header nav ul li a:hover {
   justify-content: space-evenly;
 }
 
-  /* .grid-item.one{
-    height: 100%;
-  } */
-
-  /* .grid-item.two{
-    height: 70%;
-  } */
-
-  /* .grid-item.five {
-      grid-column: span 1/2;
-      grid-template-columns: 30%;
-      text-align: center;
-  } */
-
-  /*work section end*/
-
-  /*contact me section*/
-
-  /* .contact h2{
-    font-size: 60px;
-  }
-
-  .contact {
-    word-spacing: 50px;
-    font-size: 25px;
-        
-  } */
