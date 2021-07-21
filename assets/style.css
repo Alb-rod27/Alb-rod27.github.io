@@ -1,46 +1,44 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-
-h1 {
-    color: gold;
-    box-align: left;
-    position: relative;
-    flex-wrap: wrap;
-    background-size: auto;
-    background-attachment: fixed;
-    font-size: 50px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header a{
-    text-decoration: none;
-    color: gold;
-    font-size: 30px;
-    padding: 10px 15px;
+h1 {
+  color: rgb(217, 243, 243);
+  box-align: left;
+  position: relative;
+  flex-wrap: wrap;
+  background-size: auto;
+  background-attachment: fixed;
+  font-size: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(217, 243, 243);
+  font-size: 40px;
+  padding: 10px 15px;
 }
 
 header {
-    padding: 20px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    top: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
-    background-color: rgb(161, 156, 156);
+  padding: 20px 35px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+  background-image: url(./images/new-banner.jpg);
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    list-style: none;
-    padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 10px;
 }
 
 section {
@@ -54,19 +52,19 @@ section h2 {
   font-size: 80px;
 }
 
-section > div {
+section>div {
   width: 75%;
   border-left: solid rgb(79, 79, 194) 5px;
   padding: 50px;
 }
 
 header nav ul li a:hover {
-    font-size: 2.10vw;
-    font-weight: lighter;
+  font-size: 2.10vw;
+  font-weight: lighter;
 }
 
 .hero {
-  background-image: url("./images/hero.jpg");
+  background-image: url("./images/new-banner.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -79,72 +77,36 @@ header nav ul li a:hover {
 }
 
 .hero h2 {
-    color:gold;
-    position: absolute;
-    font-size: 30px;
+  color: rgb(217, 243, 243);
+  position: absolute;
+  font-size: 60px;
 }
 
-/*about me section start */
-
-/* .me {
-    padding: 30px 50px 80px 20px;
-} */
-
-
-/* .about-me h2 {
-    font-size: 80px;
-    display: flex;
-} */
-
-    div p {
-    line-height: 1.7;
-    /* width: 60%; */
-    font-size: 30px;
-    /* float: right; */
-    border-bottom: 20px;
-  }
-
-  /*about-me section end*/
-
-  /*work section start*/
-
-  /* .work {
-     padding: 170px 50px 80px 20px;
-  } */
-
-  /* .work h2{
-      font-size: 80px;
-      display: flex;
-  } */
-
-  .grid-container {
-    display: grid;
-    /* grid-column-start: 3; */
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 100%;
-    grid-gap: 15px;
+div p {
+  line-height: 1.7;
+  font-size: 30px;
+  border-bottom: 20px;
 }
 
-  /* .grid-wrapper {
-    display: grid;
-    display: flex;
-    padding: 60px 0 60px 0;
-    justify-content: center;
-  } */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  grid-gap: 15px;
+}
 
-  .grid-item {
-    border: 2px solid;
-    min-height: 150px;
-  }
+.grid-item {
+  border: 2px solid;
+  min-height: 150px;
+}
 
-  .grid-item.main{
-    grid-row: span 2;
-    grid-column: span 2;
-  }
+.grid-item.main {
+  grid-row: span 2;
+  grid-column: span 2;
+}
 
 #contact-links {
   display: flex;
   justify-content: space-evenly;
 }
-
