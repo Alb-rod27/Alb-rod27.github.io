@@ -19,6 +19,7 @@ header a {
   color: rgb(217, 243, 243);
   font-size: 40px;
   padding: 10px 15px;
+  text-decoration: underline;
 }
 
 header {
@@ -104,6 +105,8 @@ div p {
 .grid-item.main {
   grid-row: span 2;
   grid-column: span 2;
+  background-image: url(./images/musix.JPG);
+  background-position: center;
 }
 
 #contact-links {
