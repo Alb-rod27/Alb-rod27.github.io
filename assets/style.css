@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+header h1 {
+  justify-content: end;
+  position: relative;
+  font-size: 35px;
+}
+
 h1 {
   color: rgb(217, 243, 243);
   box-align: left;
@@ -30,7 +36,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
-  z-index: 9999;
+  /* z-index: 9999; */
   background-image: url(./images/new-banner.jpg);
 }
 
