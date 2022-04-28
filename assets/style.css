@@ -36,7 +36,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
-  background-image: url(./images/new-banner.jpg);
+  background-image: url("./images/new-banner.jpg");
 }
 
 header nav ul {
@@ -114,7 +114,17 @@ header nav ul li a:hover {
   background-position: center;
 }
 
+.contact {
+  background-color: rgb(216, 218, 172);
+  /*background-image: url("./images/new-banner.jpg");
+  justify-content: center;
+  background-size: cover;
+  background-position: 90%;
+  width: auto;*/
+}
+
 #contact-links {
   display: flex;
   justify-content: space-evenly;
+  font-size: 25px;
 }
