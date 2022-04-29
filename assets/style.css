@@ -117,11 +117,11 @@ section>div {
 
 .contact {
   background-color: rgb(216, 218, 172);
-  /*background-image: url("./images/new-banner.jpg");
+  background-image: url("./images/new-banner.jpg");
   justify-content: center;
   background-size: cover;
   background-position: 90%;
-  width: auto;*/
+  width: auto;
 }
 
 #contact-links {
