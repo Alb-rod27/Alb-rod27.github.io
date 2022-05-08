@@ -103,24 +103,6 @@ section>div {
   grid-gap: 15px;
 }
 
-.grid-item {
-  border: 2px solid;
-  min-height: 150px;
-}
-
-.grid-item.main {
-  grid-row: span 2;
-  grid-column: span 2;
-  background-image: url(./images/musix.JPG);
-  background-position: center;
-}
-
-.grid-item.five {
-  background-image: url(./images/run-buddy.PNG);
-  background-position: center;
-  background-size: contain;
-}
-
 .contact {
   background-color: rgb(216, 218, 172);
   background-image: url("./images/new-banner.jpg");
