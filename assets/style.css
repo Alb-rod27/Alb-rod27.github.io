@@ -115,6 +115,12 @@ section>div {
   background-position: center;
 }
 
+.grid-item.five {
+  background-image: url(./images/run-buddy.PNG);
+  background-position: center;
+  background-size: contain;
+}
+
 .contact {
   background-color: rgb(216, 218, 172);
   background-image: url("./images/new-banner.jpg");
